@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="OpButton">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">#FF9800</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="FuncButton">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">#2196F3</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>

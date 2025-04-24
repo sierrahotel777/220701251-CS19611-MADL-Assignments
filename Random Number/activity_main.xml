@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/minValueInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter minimum value"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/maxValueInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter maximum value"
+        android:inputType="number"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/generateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Random Number"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result will be shown here"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

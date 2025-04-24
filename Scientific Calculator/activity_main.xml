@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="#ECECEC">
+
+    <EditText
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:textSize="24sp"
+        android:gravity="right"
+        android:padding="10dp"
+        android:focusable="false"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <Button android:id="@+id/btnSin" android:text="sin" style="@style/FuncButton"/>
+        <Button android:id="@+id/btnCos" android:text="cos" style="@style/FuncButton"/>
+        <Button android:id="@+id/btnTan" android:text="tan" style="@style/FuncButton"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <Button android:id="@+id/btnSqrt" android:text="√" style="@style/FuncButton"/>
+        <Button android:id="@+id/btnLog" android:text="log" style="@style/FuncButton"/>
+        <Button android:id="@+id/btnPow" android:text="x^y" style="@style/FuncButton"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <Button android:id="@+id/btnMod" android:text="%" style="@style/OpButton"/>
+        <Button android:id="@+id/btnDiv" android:text="/" style="@style/OpButton"/>
+        <Button android:id="@+id/btnMul" android:text="*" style="@style/OpButton"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <Button android:id="@+id/btnSub" android:text="-" style="@style/OpButton"/>
+        <Button android:id="@+id/btnAdd" android:text="+" style="@style/OpButton"/>
+        <Button android:id="@+id/btnEqual" android:text="=" style="@style/OpButton"/>
+    </LinearLayout>
+
+</LinearLayout>
